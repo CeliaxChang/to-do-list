@@ -1,0 +1,11 @@
+.card {
+  background-color: rgb(255, 255, 255, 0.75);
+  width: 50rem;
+  /* margin: 0 auto; */
+  margin-top: 5rem;
+  border-radius: 2rem;
+  padding: 2.5rem 3rem;
+  box-shadow: 14px 16px 14px -14px rgb(0, 0, 0, 0.2);
+
+  position: relative;
+}

@@ -1,0 +1,67 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin: 1.5rem 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.date-container {
+  padding: 0.4rem 1.2rem;
+  background-color: #fff;
+  /* border: 1px solid #aaa; */
+  color: #343a40;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.month {
+  text-transform: uppercase;
+}
+
+.date {
+  font-size: 2rem;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.item-text p {
+  margin: 0;
+}
+
+.time {
+  font-size: 1.4rem;
+  color: #868e96;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 0.4rem;
+  transition: all ease-in-out .3s;
+}
+
+.button:hover,
+.button:active {
+  background-color: #fa5252;
+}
+
+ion-icon {
+  font-size: 2.5rem;
+}
